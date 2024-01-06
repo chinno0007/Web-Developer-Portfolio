@@ -32,9 +32,9 @@ font-size: 18px;
 
 .header{
     background-color: #FFF8F3;
-    background-image: url('../images/header_bg.png');
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right, top left;
 }
 
 .banner{
@@ -102,6 +102,9 @@ main{
    max-width: 1140px;
    margin: 0 auto; 
 }
+main section{
+    margin-top: 130px;
+}
 /* about section styles */
 .about{
     padding: 130px;
@@ -117,4 +120,95 @@ main{
 }
 .about-info{
     text-align: center;
+}
+
+/* What i Do */
+#what-i-do-des{
+    padding: 30px 150px;
+}
+
+
+/* Skills related styles */
+.skills-container{
+    display: flex;
+    
+}
+.skills{
+    padding: 30px;
+    gap: 24px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.skill-description{
+    text-align: justify;
+    color: #757575;
+}
+
+/* Resume section */
+.resume-column-title{
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.resume-container{
+    display: flex;
+    gap: 50px;
+}
+.resume-container hr{
+    margin: 30px;
+}
+.resume-items-institute{
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+.resume-items-title{
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+    margin: 10px 0px;
+}
+.resume-items-institute, .resume-items-description{
+    color: #757575;
+font-family: Open Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 175% */
+}
+
+
+.download-cv{
+   text-align: center;
+   margin-top: 50px;
+}
+
+
+/* footer style */
+footer{
+    display: flex;
+    background: #FFF8F3;
+    padding: 130px 200px;
+    margin-top: 100px;
+    gap: 100px;
+}
+.footer-column{
+    width: 50%;
+    
+}
+.social-links a{
+    margin-right: 25px;
+}
+
+/* form */
+.contact input[type="text"],.contact input[type="email"], textarea{
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: #757575;
+    border-radius: 5px;
+    background-color: #FFF;
+    border: none;
+    width: 100%;
 }
